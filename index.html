@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Smart Home</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Oswald&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="header">
+		<img class="logo" src="logo.png" alt="smart_home">
+		<h1 style="margin-left:1%;white-space:nowrap;font-family: 'Dancing Script', cursive;">Smart Home</h1>
+		<div style="margin-left: 10%;">
+				<input class="inp" type="text" placeholder="&emsp; &emsp; Tìm kiếm...">
+		</div>
+		<div class="reg">Đăng nhập/Đăng kí</div>
+		<div style="margin-left: 5%;"><img style="width: 40px;height: 40px;" src="option.png" alt=""></div>
+	</div>
+	<div class="container">
+		<a href="#slideshow" class="content">Giới thiệu</a>
+		<a href="#tvcontainer" class="content">Thành viên</a>
+		<a href="#dvcontainer" class="content">Dịch vụ</a>
+		<a href="#hdcontainer" class="content">Hướng dẫn</a>
+	</div>
+	<div class="description">
+		<h1 class="sec">GIỚI THIỆU</h1>
+		<p>Một ngôi nhà sạch góp phần đảm bảo một cuộc sống  sức khỏe dồi dào và một cuộc sống hạnh phúc cho tất cả thành viên trong gia đình. Nhà sạch thì mát, bát sạch ngon cơm. Cuộc sống hiện đại ngày nay, mỗi gia đình đều mong muốn có một không gian sạch sẽ để sinh hoạt, nghỉ ngơi, một môi trường không chút bụi bẩn, an toàn và tốt cho sức khỏe gia đình. Dịch vụ vệ sinh nhà ở giúp gia đình bạn hoàn toàn yên tâm về việc chăm sóc ngôi nhà, dọn vệ sinh nhà và làm sạch nhà cửa</p>
+	</div>
+	<div id="slideshow" class= "middle">
+		<div class="slides">
+			<input type="radio" name="r" id="r1" checked>
+			<input type="radio" name="r" id="r2">
+			<input type="radio" name="r" id="r3">
+			<input type="radio" name="r" id="r4">
+			<div class="slide s1">
+				<img src="1.jfif" alt="">
+			</div>
+			<div class="slide">
+				<img src="2.jfif" alt="">
+			</div>
+			<div class="slide">
+				<img src="3.jfif" alt="">
+			</div>
+			<div class="slide">
+				<img src="4.jfif" alt="">
+			</div>
+		</div>
+		<div class="navi">
+			<label for="r1" class="bar"></label>
+			<label for="r2" class="bar"></label>
+			<label for="r3" class="bar"></label>
+			<label for="r4" class="bar"></label>
+		</div>
+	</div>
+	<div id="tvcontainer">
+		<h1 class="sec">THÀNH VIÊN</h1>
+		<span style="font-size: 30px;">Dưới đây là 1 số nhân viên nổi bật của chúng tôi:</span>
+		<div class="tv">
+			<img src="tv1.png" alt="tv1">
+			<p>Họ và tên: Hoàng Ngọc Diệp</p>
+			<p>Đánh giá: 5.0/5 </p>
+			<button>Vote</button>
+		</div>
+		<div class="tv">
+			<img src="tv2.png" alt="tv2">
+			<p>Họ và tên: Trần Hoàng Đông</p>
+			<p>Đánh giá: 4.9/5 </p>
+			<button>Vote</button>
+		</div>
+		<div class="tv">
+			<img src="tv3.png" alt="tv3">
+			<p>Họ và tên: Trương Thị Mỹ</p>
+			<p>Đánh giá: 4.8/5 </p>
+			<button>Vote</button>
+		</div>
+		<div class="tv">
+			<img src="tv4.png" alt="tv4">
+			<p>Họ và tên: Nguyễn Thị Dung</p>
+			<p>Đánh giá: 4.8/5 </p>
+			<button>Vote</button>
+		</div>
+		<div class="tv">
+			<img src="tv5.png" alt="tv5">
+			<p>Họ và tên: Phan Thị Kim</p>
+			<p>Đánh giá: 4.7/5 </p>
+			<button>Vote</button>
+		</div>
+	</div>
+	<h1 class="sec">DỊCH VỤ</h1>
+	<span style="font-size: 30px;margin-left: 10%;margin-right: 10%;">Sau đây là 1 số dịch vụ chúng tôi cung cấp:</span>
+	<div id="dvcontainer">
+		<div class="dv">
+			<img src="rag.png">
+			<p>Dọn dẹp phòng nhỏ, chung cư với diện tích nhỏ hơn 55m<sup>2</sup></p></br>
+			<p>Giá: <span style="text-decoration: underline;">250.000 VNĐ</span></p>
+		</div>
+		<div class="dv">
+			<img src="broom-solid.svg">
+			<p>Dọn dẹp phòng lớn, chung cư với diện tích 55m<sup>2</sup></p></br>
+			<p>Giá: <span style="text-decoration: underline;">350.000 VNĐ</span></p>
+		</div>
+	</div>
+	<h1 class="sec" style="margin-top: 50px;">HƯỚNG DẪN</h1>
+	<div id="hdcontainer">
+		<div class="dv">
+			<p>Đối với khách hàng mới:</p></br>
+			<p>Hãy thực hiện bước đăng kí hoặc liên hệ trực tiếp tới sđt:</br><b>012346789</b></p>
+		</div>
+		<div class="dv">
+			<p>Đối với khách hàng cũ:</p>
+
+		</div>
+	</div>
+</body>
+</html>
