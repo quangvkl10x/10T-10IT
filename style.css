@@ -4,13 +4,14 @@
 	font-family: 'Lobster', cursive;
 }
 body{
-	background-image: linear-gradient(#EEEEEE, #F0FF00);
+	background-image: linear-gradient(#EEEEEE, #98FBF1);
 }
 p{
 	font-family: 'Open Sans', sans-serif;
 }
 a{
 	text-decoration: none;
+	transition:0.5s;
 }
 .header{
 	height: 150px;
@@ -22,7 +23,7 @@ a{
 	margin-left: 10%;
 	margin-right: 10%;
 	height: 100px;
-	background-color: #71c9ce;
+	background-color: #D4D4D4;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -38,7 +39,7 @@ a{
 	color:  #eee;
 	width: 200px;
 	height: 100%;
-	margin:20px;
+	margin:50px;
 	line-height: 75px;
 	text-align: center;
 	background-color: #393e46;
@@ -205,10 +206,10 @@ input[name="r"]{
 	margin-right: 10%;
 }
 hr{
-	width: 50%;
+	width: 75%;
 	margin:auto;
 	height: 10px;
 	background-color: #A8D1E0;
-	border:5px solid transparent;
+	border:5px solid white;
 	border-radius: 20px;
 }
