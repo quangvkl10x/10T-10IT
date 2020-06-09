@@ -193,8 +193,8 @@ input[name="r"]{
 	color: grey;
 }
 .dv:hover{
-	height: 350px;
-	width: 300px;
+	height: 310px;
+	width: 270px;
 	background-color: #E0A1A4;
 }
 #hdcontainer{
@@ -203,4 +203,12 @@ input[name="r"]{
 	margin-top: 50px;
 	margin-left: 10%;
 	margin-right: 10%;
+}
+hr{
+	width: 50%;
+	margin:auto;
+	height: 10px;
+	background-color: #A8D1E0;
+	border:5px solid transparent;
+	border-radius: 20px;
 }
